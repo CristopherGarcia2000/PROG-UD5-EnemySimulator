@@ -7,5 +7,5 @@ public abstract class Mob {
         this.salud = salud;
     }
 
-    protected abstract void Moverse();
+    protected abstract void moverse();
 }
