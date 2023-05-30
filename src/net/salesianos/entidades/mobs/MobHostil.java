@@ -10,6 +10,7 @@ public abstract class MobHostil extends Mob implements Combate {
         this.fuerza = fuerza;
     }
 
+
     @Override
     public int atacar() {
         return this.fuerza;

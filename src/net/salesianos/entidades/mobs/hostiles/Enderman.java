@@ -8,7 +8,7 @@ public class Enderman extends MobHostil {
     }
 
     @Override
-    protected void moverse() {
+    public void moverse() {
         System.out.println("Se teletransporta detrás de ti");
     }
 }

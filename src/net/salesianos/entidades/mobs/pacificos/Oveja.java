@@ -8,7 +8,7 @@ public class Oveja extends MobPacífico {
     }
 
     @Override
-    protected void moverse() {
+    public void moverse() {
         System.out.println("Se mueve por el campo");
     }
 

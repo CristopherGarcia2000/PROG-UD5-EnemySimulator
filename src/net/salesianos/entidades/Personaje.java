@@ -7,6 +7,16 @@ public class Personaje implements Combate {
     private int defensa;
     private int fuerza;
 
+    public int getSalud() {
+        return salud;
+    }
+
+    public int getDefensa() {
+        return defensa;
+    }
+
+
+
     public Personaje(int defensa, int fuerza) {
         this.salud = 12;
         this.defensa = defensa;

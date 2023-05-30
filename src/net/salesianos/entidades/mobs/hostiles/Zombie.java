@@ -7,8 +7,9 @@ public class Zombie extends MobHostil {
         super(salud, fuerza);
     }
 
+
     @Override
-    protected void moverse() {
+    public void moverse() {
         System.out.println("Se mueve hacia ti");
     }
 }
